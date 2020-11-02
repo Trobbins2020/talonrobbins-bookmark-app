@@ -103,20 +103,28 @@ function bookmark(bookmark) {
 
 function addbookmarkform(bookmarks) {
   let form = `<form id="addbookmark">
+    <div class="inputdiv">
     <label for="title">Title: </label>
     <input type="text" name="title" id="title" required>
+    </div>
+    <div class="inputdiv">
     <label for="title">Url: </label>
     <input type="url" name="url" id="url" required>
+    </div>
+    <div class="inputdiv">
     <label for="title">Description: </label>
     <input type="text" name="desc" id="desc" required>
-    <select name="rating" id="rating">
+    </div>
+    <br>
+    Rating: <select name="rating" id="rating">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
     </select>
-    <input type="submit" value="submit" /> 
+   <br>
+    <input type="submit" value="Submit" /> 
 </form>`;
   $("#mainlist").html(form);
   let addCancleButton = document.createElement("button");

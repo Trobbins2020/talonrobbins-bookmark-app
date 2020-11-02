@@ -3,7 +3,7 @@
 }
 
 #mainlist {
-    width: 35%;
+    width: 45%;
     margin: 0 auto;
     text-align: center;
 }
@@ -68,4 +68,20 @@ select {
 .hiddenview {
     display: flex;
     justify-content: space-evenly;
+}
+
+#addbookmark {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: -1px -1px 12px 5px rgba(232, 232, 232, 1);
+}
+
+input {
+    padding: 10px;
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
