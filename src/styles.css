@@ -2,7 +2,7 @@
     display: none;
 }
 
-#mainlist {
+main {
     width: 45%;
     margin: 0 auto;
     text-align: center;
@@ -13,7 +13,7 @@ h1 {
 }
 
 button {
-    padding: 10px;
+    padding: 12px;
     font-weight: bold;
     background-color: white;
     border: none;
@@ -62,12 +62,14 @@ select {
 }
 
 .mb-3 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .hiddenview {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #addbookmark {
@@ -78,10 +80,16 @@ select {
 
 input {
     padding: 10px;
+    min-width: 50%;
 }
 
 .inputdiv {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 20px;
+}
+
+label {
+    font-size: 20px;
 }
