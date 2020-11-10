@@ -17,4 +17,3 @@ The user can see a list of their bookmarks when they open the app
 All bookmarks in the list default to a "condensed" view showing only title and rating I can click on a bookmark to display the "detailed" view
 
 Detailed view expands to additionally display description and a "Visit Site" link The user can remove bookmarks from the list by clicking the trash icon on the bottom right
-
